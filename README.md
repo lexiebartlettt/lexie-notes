@@ -31,4 +31,13 @@ Sources:
  
  Dayna Lacoursiere helped me through discussion although no direct code was exchanged 
  
+ Problems: Although the Unarchive class is on the UML diagram this class broke on the last day and was changed to 
+ a context menu. This looks nicer anyway I just didn't hava a chance to update UML diagram 
+ 
+  The EmailArchived class stopped opening, the class seems to work fine it just refuses to open. The button to enter this class was removed for neatness 
+ 
+  Also when you delete an item on either lists you have to refresh the screen for the change to show notifydatasetchanged() didn't work.
+  
+ 
+ 
  
