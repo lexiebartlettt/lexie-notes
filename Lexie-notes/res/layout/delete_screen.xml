@@ -2,21 +2,21 @@
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical" >
-<ListView
-android:id="@+id/deleteListView"
-android:layout_width="match_parent"
-android:layout_height="200dp" >
-</ListView>
-<Button
-android:id="@+id/deleteSelected"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_weight="0.2"
-android:text="Delete Selected" />
-<Button
-android:id="@+id/deleteAll"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_weight="0.2"
-android:text="Delete All" />
+	<ListView
+		android:id="@+id/deleteListView"
+		android:layout_width="match_parent"
+		android:layout_height="200dp" >
+	</ListView>
+	<Button
+		android:id="@+id/deleteSelected"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="0.2"
+		android:text="Delete Selected" />
+	<Button
+		android:id="@+id/deleteAll"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="0.2"
+		android:text="Delete All" />
 </LinearLayout>

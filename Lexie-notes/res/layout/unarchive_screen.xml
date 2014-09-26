@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical" >
-<ListView
-android:id="@+id/unarchiveListView"
-android:layout_width="match_parent"
-android:layout_height="200dp" >
-</ListView>
-<Button
-android:id="@+id/moveSelect "
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_weight="0.2"
-android:text="Move Selected Back to To Do List" />
-<Button
-android:id="@+id/deleteSelect"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_weight="0.2"
-android:text="Delete Selected" />
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<ListView
+		android:id="@+id/unarchiveListView"
+		android:layout_width="match_parent"
+		android:layout_height="200dp" >
+	</ListView>
+	<Button
+		android:id="@+id/moveSelect "
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="0.2"
+		android:text="Move Selected Back to To Do List" />
+	<Button
+		android:id="@+id/deleteSelect"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="0.2"
+		android:text="Delete Selected" />
 </LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/emailItm"
+android:title="Email Select" />
+<item android:id="@+id/archiveItm"
+android:title="Archive Select" />
+<item android:id="@+id/summary"
+android:title="Summary" />
+</menu>

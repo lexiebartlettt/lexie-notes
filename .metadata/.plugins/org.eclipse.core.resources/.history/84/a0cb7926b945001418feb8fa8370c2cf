@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+<TextView
+android:id="@+id/title"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginLeft="84dp"
+android:text="Summary"
+android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+android:id="@+id/totalTodos"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentLeft="true"
+android:layout_below="@+id/title"
+android:layout_marginLeft="34dp"
+android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+android:id="@+id/totalCheck"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignLeft="@+id/totalTodos"
+android:layout_below="@+id/totalTodos"
+android:layout_marginTop="14dp"
+android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+android:id="@+id/totalUncheck"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignLeft="@+id/totalCheck"
+android:layout_below="@+id/totalCheck"
+android:layout_marginTop="16dp"
+android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+android:id="@+id/totalArchive"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignLeft="@+id/totalUncheck"
+android:layout_below="@+id/totalUncheck"
+android:layout_marginTop="16dp"
+android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+android:id="@+id/totalArchiveCheck"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignLeft="@+id/totalArchive"
+android:layout_below="@+id/totalArchive"
+android:layout_marginTop="14dp"
+android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+android:id="@+id/totalArchiveUncheck"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignLeft="@+id/totalArchiveCheck"
+android:layout_below="@+id/totalArchiveCheck"
+android:layout_marginTop="19dp"
+android:textAppearance="?android:attr/textAppearanceLarge" />
+</RelativeLayout>

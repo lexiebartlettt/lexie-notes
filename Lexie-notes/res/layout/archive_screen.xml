@@ -2,27 +2,27 @@
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical" >
-<ListView
-android:id="@+id/archiveListView"
-android:layout_width="match_parent"
-android:layout_height="200dp" >
-</ListView>
-<Button
-android:id="@+id/ArchiveSelected"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_weight="0.2"
-android:text="Archive Selected" />
-<Button
-android:id="@+id/ArchiveAll"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_weight="0.2"
-android:text="Archive All" />
-<Button
-android:id="@+id/viewArchived"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_weight="0.2"
-android:text="View Archived" />
+	<ListView
+	android:id="@+id/archiveListView"
+	android:layout_width="match_parent"
+	android:layout_height="200dp" >
+	</ListView>
+	<Button
+	android:id="@+id/ArchiveSelected"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_weight="0.2"
+	android:text="Archive Selected" />
+	<Button
+	android:id="@+id/ArchiveAll"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_weight="0.2"
+	android:text="Archive All" />
+	<Button
+	android:id="@+id/viewArchived"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_weight="0.2"
+	android:text="View Archived" />
 </LinearLayout>
