@@ -197,17 +197,17 @@ public class MainActivity extends Activity {
 			Gson gson= new GsonBuilder().create();
 			mainarchived=gson.fromJson(isr, new TypeToken <ArrayList<ToDo>>(){}.getType());
 		}
-//catch catches when the file can't be found
-catch (FileNotFoundException e){
-e.printStackTrace();
-}
-}
-//When this is called is makes every ToDo where isChecked == true appears checked
-public void checkChecked(){
-for (int i=0;i<toDoList.size();i++){
-if(toDoList.get(i).getCheck()==true){
-listView.setItemChecked(i, true);
-}
-}
-}
+		//catch catches when the file can't be found
+		catch (FileNotFoundException e){
+			e.printStackTrace();
+		}
+	}
+	//When this is called is makes every ToDo where isChecked == true appears checked
+	public void checkChecked(){
+		for (int i=0;i<toDoList.size();i++){
+			if(toDoList.get(i).getCheck()==true){
+				listView.setItemChecked(i, true);
+			}
+		}
+	}
 }

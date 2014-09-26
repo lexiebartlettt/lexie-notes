@@ -26,11 +26,10 @@ public final class R {
     public static final class id {
         public static final int ArchiveAll=0x7f080003;
         public static final int ArchiveSelected=0x7f080002;
-        public static final int EmailArchive=0x7f08001e;
         public static final int Unarchive=0x7f08001d;
-        public static final int action_settings=0x7f08001f;
+        public static final int action_settings=0x7f08001e;
         public static final int addBtn=0x7f080011;
-        public static final int archiveItm=0x7f080021;
+        public static final int archiveItm=0x7f080020;
         public static final int archiveListView=0x7f080001;
         public static final int container=0x7f080000;
         public static final int delete=0x7f080005;
@@ -41,7 +40,7 @@ public final class R {
         public static final int emailAll=0x7f08000e;
         public static final int emailEverything=0x7f08000f;
         public static final int emailFrom=0x7f08000a;
-        public static final int emailItm=0x7f080020;
+        public static final int emailItm=0x7f08001f;
         public static final int emailListView=0x7f08000c;
         public static final int emailSelected=0x7f08000d;
         public static final int emailcc=0x7f08000b;
@@ -49,7 +48,7 @@ public final class R {
         public static final int moveSelect =0x7f08001b;
         public static final int nevermind=0x7f080006;
         public static final int newToDo=0x7f080010;
-        public static final int summary=0x7f080022;
+        public static final int summary=0x7f080021;
         public static final int title=0x7f080013;
         public static final int totalArchive=0x7f080017;
         public static final int totalArchiveCheck=0x7f080018;
@@ -72,9 +71,10 @@ public final class R {
         public static final int view_archive=0x7f030008;
     }
     public static final class menu {
-        public static final int delete_menu=0x7f070000;
-        public static final int main=0x7f070001;
-        public static final int options_menu=0x7f070002;
+        public static final int archive_delete=0x7f070000;
+        public static final int delete_menu=0x7f070001;
+        public static final int main=0x7f070002;
+        public static final int options_menu=0x7f070003;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;

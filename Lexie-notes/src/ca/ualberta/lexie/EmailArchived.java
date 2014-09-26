@@ -23,7 +23,7 @@ import android.widget.Toast;
 public class EmailArchived extends ViewArchive{
 	private ListView emailmainListView ;
 	private ArrayAdapter<ToDo> listAdapter;
-	public static ArrayList<ToDo> viewarchived;
+	private ArrayList<ToDo> viewarchived;
 	private String ARCHIVEFILENAME="archive1.sav";
 	private ArrayList<ToDo> emailStrings = new ArrayList <ToDo>();
 
@@ -31,6 +31,8 @@ public class EmailArchived extends ViewArchive{
 public void onCreate(Bundle savedInstanceState){
 	super.onCreate(savedInstanceState);
 	setContentView(R.layout.email_screen);
+	
+	
 	// adds selected items to emailStrings
 	emailmainListView = (ListView) findViewById( R.id.emailListView);
 	emailmainListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
@@ -39,6 +41,8 @@ public void onCreate(Bundle savedInstanceState){
 			emailStrings.add(viewarchived.get(position));
 		}
 	});
+	
+	
 	//passes the emailStrings list to email toDos on button press
 	Button email_select_button=(Button) findViewById(R.id.emailSelected);
 	email_select_button.setOnClickListener(new View.OnClickListener() {
@@ -47,6 +51,8 @@ public void onCreate(Bundle savedInstanceState){
 			emailToDos(emailStrings);
 		}
 	});
+	
+	
 	//passes archived list to emailtoDos on button press
 	Button email_all_button=(Button) findViewById(R.id.emailAll);
 	email_all_button.setOnClickListener(new View.OnClickListener() {
@@ -55,6 +61,8 @@ public void onCreate(Bundle savedInstanceState){
 			emailToDos(viewarchived);
 		}
 	});
+	
+	
 	//when you press the button the function emailEverything is called
 	Button email_everything=(Button) findViewById(R.id.emailEverything);
 	email_everything.setOnClickListener(new View.OnClickListener() {
@@ -64,16 +72,20 @@ public void onCreate(Bundle savedInstanceState){
 		}
 	});
 	}
+
+
 	//onStart it loads archived and initializes the screen
 	@Override
 	public void onStart(){
 		super.onStart();
 		loadArchiveFromFile();
 		emailmainListView = (ListView) findViewById( R.id.emailListView );
-		listAdapter = new ArrayAdapter<ToDo>(this,android.R.layout.simple_list_item_checked, viewarchived);
+		listAdapter = new ArrayAdapter<ToDo>(this,android.R.layout.simple_list_item_multiple_choice, viewarchived);
 		emailmainListView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
 		emailmainListView.setAdapter( listAdapter );
 	}
+	
+	
 	//loads list viewarchived from file ARCHIVEFILENAME
 	private void loadArchiveFromFile() {
 		try {
@@ -86,6 +98,8 @@ public void onCreate(Bundle savedInstanceState){
 			e.printStackTrace();
 		}
 	}
+	
+	
 	//emails the arraylist passed to the function
 	public void emailToDos(ArrayList<ToDo> emailText){
 		EditText fromText=(EditText)findViewById(R.id.emailFrom);
@@ -116,6 +130,8 @@ public void onCreate(Bundle savedInstanceState){
 			Toast.makeText(EmailArchived.this, "There is no email client installed", Toast.LENGTH_SHORT).show();
 		}
 	}
+
+	
 	//emails the entire archived todo list and the regular to do list
 	public void emailEverything(){
 		EditText fromText=(EditText)findViewById(R.id.emailFrom);

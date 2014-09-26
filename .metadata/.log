@@ -1594,3 +1594,13 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: 0
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-09-26 11:40:07.779
 !MESSAGE Current file is not a match for the given config.
+!SESSION 2014-09-26 12:24:28.190 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_32
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-26 13:35:01.267
+!MESSAGE Current file is not a match for the given config.

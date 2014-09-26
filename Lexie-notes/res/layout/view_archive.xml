@@ -8,16 +8,4 @@ android:id="@+id/archiveListView"
 android:layout_width="match_parent"
 android:layout_height="200dp" >
 </ListView>
-<Button
-android:id="@+id/Unarchive"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_weight="0.2"
-android:text="Unarchive" />
-<Button
-android:id="@+id/EmailArchive"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_weight="0.2"
-android:text="Email" />
 </LinearLayout>
