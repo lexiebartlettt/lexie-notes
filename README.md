@@ -9,6 +9,8 @@ copyright of Lexie Bartlett 2014
 To Use:
 - add tasks by typing in textbox and clicking the add button 
 - to delete todos click and hold on list items on the main screen 
+- To access archive,email and summary there are three buttons in the top right hand corner that open a menu
+  In newer device versions it shows up by pressing the left button at the bottom at the device 
 
 Sources:
  Used lonelyTwitter app for saving and loading implementations 
