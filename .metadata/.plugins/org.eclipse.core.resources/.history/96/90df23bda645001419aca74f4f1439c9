@@ -1,0 +1,181 @@
+package ca.ualberta.lexie;
+
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
+public class ArchiveScreen extends Activity{
+private ListView mainListView ;
+private ArrayAdapter<ToDo> listAdapter;
+public static ArrayList<ToDo> archived;
+private ArrayList<ToDo> todolist= new ArrayList<ToDo>();
+private ArrayList<ToDo> preArchived = new ArrayList<ToDo>();
+private ArrayList<Integer> positions = new ArrayList<Integer>();
+private String FILENAME="archive1.sav";
+private String FILENAME2="saves8.sav";
+
+
+public void onCreate(Bundle savedInstanceState){
+super.onCreate(savedInstanceState);
+setContentView(R.layout.archive_screen);
+//this adds list item to preArchived on list click
+mainListView = (ListView) findViewById( R.id.archiveListView);
+mainListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+public void onItemClick(AdapterView<?> listAdapter,View v, int position, long id)
+{
+preArchived.add(com.ualberta.lexie.MainActivity.toDoList.get(position));
+positions.add(position);
+}
+});
+//on this button click it archives the items that are selected
+Button archive_select_button=(Button) findViewById(R.id.ArchiveSelected);
+archive_select_button.setOnClickListener(new View.OnClickListener() {
+public void onClick(View v){
+archiveSelect();
+}
+});
+//on this button click it archives all the items in the ToDoList
+Button archive_all_button=(Button) findViewById(R.id.ArchiveAll);
+archive_all_button.setOnClickListener(new View.OnClickListener() {
+public void onClick(View v){
+archiveAll();
+}	
+});
+//this button starts the ViewArchive activity
+Button view_archive_button=(Button) findViewById(R.id.viewArchived);
+view_archive_button.setOnClickListener(new View.OnClickListener() {
+public void onClick(View v){
+Intent viewIntent= new Intent(getApplicationContext(),ViewArchive.class);
+startActivity(viewIntent);
+}
+});
+}
+//called on Resume to reload archived
+public void onResume(){
+super.onResume();
+loadFromFile();
+listAdapter.notifyDataSetChanged();
+}
+//this is the function to actually archive selected items
+//this function contains errors--will not remove the items from
+//to do list
+public void archiveSelect(){
+//this is for adding items to archived
+for(int i=0; i<preArchived.size();i++){
+archived.add(preArchived.get(i));
+}
+//this is meant to remove items from to do list
+for(int j=0;j<positions.size();j++){
+todolist.remove(positions.get(j));
+saveToDoInFile();
+}
+saveInFile();
+listAdapter.notifyDataSetChanged();
+}
+//archives all items in to do list
+//this function contains errors!
+//won't remove items from to do list
+public void archiveAll(){
+//adds items to archived list
+for(int i=0; i<com.ualberta.lexie.MainActivity.toDoList.size();i++){
+ToDo t=MainActivity.toDoList.get(i);
+String s= t.getString();
+archived.add(new ToDo(s));
+}
+//this bit is supposed to remove all the items from to do list--doesn't work
+for(int j=0;j<todolist.size();j++){
+todolist.remove(j);
+saveToDoInFile();
+}
+saveInFile();
+listAdapter.notifyDataSetChanged();
+}
+//loads archived list from file FILENAME
+private void loadFromFile() {
+try {
+FileInputStream fis = openFileInput(FILENAME);
+InputStreamReader isr = new InputStreamReader(fis);
+//from http://www.javacreed.com/simple-gson-example/
+Gson gson= new GsonBuilder().create();
+archived=gson.fromJson(isr, new TypeToken <ArrayList<ToDo>>(){}.getType());
+}catch (FileNotFoundException e){
+e.printStackTrace();
+}
+}
+//saves archived list into file FILENAME
+private void saveInFile() {
+try {
+FileOutputStream fos = openFileOutput(FILENAME,0);
+OutputStreamWriter osw = new OutputStreamWriter(fos);
+Gson gson=new GsonBuilder().create();
+gson.toJson(archived,osw);
+osw.flush();
+osw.close();
+} catch (FileNotFoundException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (IOException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+}
+}
+//loads To Do List from file FILENAME2
+private void loadToDoFromFile() {
+try {
+FileInputStream fis = openFileInput(FILENAME2);
+InputStreamReader isr = new InputStreamReader(fis);
+//from http://www.javacreed.com/simple-gson-example/
+Gson gson= new GsonBuilder().create();
+todolist=gson.fromJson(isr, new TypeToken <ArrayList<ToDo>>(){}.getType());
+}catch (FileNotFoundException e){
+e.printStackTrace();
+}
+}
+//saves to Do List into file FILENAME2
+private void saveToDoInFile() {
+try {
+FileOutputStream fos = openFileOutput(FILENAME2,0);
+OutputStreamWriter osw = new OutputStreamWriter(fos);
+Gson gson=new GsonBuilder().create();
+gson.toJson(todolist,osw);
+osw.flush();
+osw.close();
+} catch (FileNotFoundException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (IOException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+}
+}
+//called on start, initializes screen
+@Override
+public void onStart(){
+super.onStart();
+loadFromFile();
+loadToDoFromFile();
+if(archived==null){
+archived = new ArrayList<ToDo>();
+}
+mainListView = (ListView) findViewById( R.id.archiveListView );
+listAdapter = new ArrayAdapter<ToDo>(this,android.R.layout.simple_list_item_checked, com.ualberta.lexie.MainActivity.toDoList);
+mainListView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+mainListView.setAdapter( listAdapter );
+listAdapter.notifyDataSetChanged();
+}
+}

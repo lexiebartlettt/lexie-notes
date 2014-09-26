@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="36" version="2.0">
+<workbenchAdvisor/>
+<window height="765" maximized="true" width="1020" x="0" y="31">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="156" y="26"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="62" y="26"/>
+<coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="44" y="26"/>
+<coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="36" y="26"/>
+<coolItem id="com.soyatec.uml.UMLElementCreationActionSet" itemType="typeToolBarContribution" x="70" y="26"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="112" y="26"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="70" y="26"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="96" y="26"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="140" y="26"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="62" y="26"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="172" y="26"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1411747351438" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArchiveScreen.java" partName="ArchiveScreen.java" path="/cshome/lexie/lexie-notes/lexie-notes/Lexie-notes/src/ca/ualberta/lexie/ArchiveScreen.java" title="ArchiveScreen.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/ArchiveScreen.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lexie-notes/src/ca/ualberta/lexie/ArchiveScreen.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6050" selectionTopPixel="1990"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="/cshome/lexie/lexie-notes/lexie-notes/Lexie-notes/src/ca/ualberta/lexie/MainActivity.java" title="MainActivity.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/MainActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lexie-notes/src/ca/ualberta/lexie/MainActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="3" selectionOffset="4718" selectionTopPixel="1952"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmailArchived.java" partName="EmailArchived.java" path="/cshome/lexie/lexie-notes/lexie-notes/Lexie-notes/src/ca/ualberta/lexie/EmailArchived.java" title="EmailArchived.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/EmailArchived.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lexie-notes/src/ca/ualberta/lexie/EmailArchived.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5399" selectionTopPixel="1696"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmailScreen1.java" partName="EmailScreen1.java" path="/cshome/lexie/lexie-notes/lexie-notes/Lexie-notes/src/ca/ualberta/lexie/EmailScreen1.java" title="EmailScreen1.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/EmailScreen1.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lexie-notes/src/ca/ualberta/lexie/EmailScreen1.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5123" selectionTopPixel="1702"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Summary.java" partName="Summary.java" path="/cshome/lexie/lexie-notes/lexie-notes/Lexie-notes/src/ca/ualberta/lexie/Summary.java" title="Summary.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/Summary.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lexie-notes/src/ca/ualberta/lexie/Summary.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3501" selectionTopPixel="656"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ToDo.java" partName="ToDo.java" path="/cshome/lexie/lexie-notes/lexie-notes/Lexie-notes/src/ca/ualberta/lexie/ToDo.java" title="ToDo.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/ToDo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lexie-notes/src/ca/ualberta/lexie/ToDo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1206" selectionTopPixel="112"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnarchiveScreen.java" partName="UnarchiveScreen.java" path="/cshome/lexie/lexie-notes/lexie-notes/Lexie-notes/src/ca/ualberta/lexie/UnarchiveScreen.java" title="UnarchiveScreen.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/UnarchiveScreen.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lexie-notes/src/ca/ualberta/lexie/UnarchiveScreen.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4509" selectionTopPixel="78"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ViewArchive.java" partName="ViewArchive.java" path="/cshome/lexie/lexie-notes/lexie-notes/Lexie-notes/src/ca/ualberta/lexie/ViewArchive.java" title="ViewArchive.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/ViewArchive.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lexie-notes/src/ca/ualberta/lexie/ViewArchive.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="3" selectionOffset="292" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="/cshome/lexie/lexie-notes/lexie-notes/Lexie-notes/res/menu/main.xml" title="main.xml" tooltip="Lexie-notes/res/menu/main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lexie-notes/res/menu/main.xml"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.team.ui.GenericHistoryView" partName="History">
+<viewState/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (71 items)"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+<child filterId="org.eclipse.m2e.MavenModuleFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.wb.core.ui.actionset"/>
+<alwaysOnActionSet id="register"/>
+<alwaysOnActionSet id="com.soyatec.uml.UMLElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="gr.uom.java.jdeodorant.BadSmells"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<alwaysOnActionSet id="adt.actionSet.lint"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.wb.core.StructureView"/>
+<show_view_action id="org.eclipse.wb.core.PaletteView"/>
+<show_in_time id="org.eclipse.team.ui.GenericHistoryView" time="1411752472736"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.adt.project.NewProjectWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.editors.wizards.NewXmlFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.android.ide.eclipse.ddms.Perspective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.PixelPerfectPespective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.TreeViewPerspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="com.android.ide.eclipse.ddms.views.LogCatView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+<view id="org.eclipse.team.ui.GenericHistoryView" ratio="0.3"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.29944134"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<page content="org.eclipse.wb.core.StructureView" label="LabelNotFound"/>
+<page content="org.eclipse.wb.core.PaletteView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@37dd7c4e" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.21364653" ratioLeft="191" ratioRight="703" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2a769c4" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.4989733" ratioLeft="243" ratioRight="244" relationship="4" relative="org.eclipse.ui.internal.ViewStack@2a769c4">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.6" ratioLeft="390" ratioRight="260" relationship="4" relative="left"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/menu/delete_menu.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/menu/options_menu.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/layout/archive_screen.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/layout/delete_menu.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/layout/email_screen.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/layout/fragment_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/layout/summary_view.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/layout/delete_screen.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/layout/unarchive_screen.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/layout/view_archive.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Lexie-notes/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ArchiveScreen.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/ArchiveScreen.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/EmailArchived.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/EmailScreen.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/EmailScreen1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/EmailScreen1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/Summary.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/ToDo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/UnarchiveScreen.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/ViewArchive.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/ArchiveScreen.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/EmailScreen1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lexie-notes/src/ca/ualberta/lexie/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Lexie-notes/res/menu/main.xml"/>
+</editors>
+<item historyLabel="options_menu.xml" index="2"/>
+<item historyLabel="delete_menu.xml" index="1"/>
+<item historyLabel="options_menu.xml" index="2"/>
+<item historyLabel="delete_menu.xml" index="1"/>
+<item historyLabel="options_menu.xml" index="2"/>
+<item historyLabel="delete_menu.xml" index="1"/>
+<item historyLabel="options_menu.xml" index="2"/>
+<item historyLabel="delete_menu.xml" index="1"/>
+<item historyLabel="archive_screen.xml" index="3"/>
+<item historyLabel="activity_main.xml" index="0"/>
+<item historyLabel="archive_screen.xml" index="3"/>
+<item historyLabel="delete_menu.xml" index="4"/>
+<item historyLabel="email_screen.xml" index="5"/>
+<item historyLabel="fragment_main.xml" index="6"/>
+<item historyLabel="summary_view.xml" index="7"/>
+<item historyLabel="delete_screen.xml" index="8"/>
+<item historyLabel="unarchive_screen.xml" index="9"/>
+<item historyLabel="view_archive.xml" index="10"/>
+<item historyLabel="unarchive_screen.xml" index="9"/>
+<item historyLabel="delete_screen.xml" index="8"/>
+<item historyLabel="summary_view.xml" index="7"/>
+<item historyLabel="fragment_main.xml" index="6"/>
+<item historyLabel="email_screen.xml" index="5"/>
+<item historyLabel="delete_menu.xml" index="4"/>
+<item historyLabel="archive_screen.xml" index="3"/>
+<item historyLabel="activity_main.xml" index="0"/>
+<item historyLabel="Lexie-notes Manifest" index="11"/>
+<item historyLabel="ArchiveScreen.java" index="12">
+<position info="not_deleted" x="30" y="2"/>
+</item>
+<item historyLabel="Lexie-notes Manifest" index="11"/>
+<item historyLabel="ArchiveScreen.java" index="13">
+<position info="not_deleted" x="1029" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="14">
+<position info="not_deleted" x="6607" y="0"/>
+</item>
+<item historyLabel="EmailArchived.java" index="15">
+<position info="not_deleted" x="5399" y="0"/>
+</item>
+<item historyLabel="EmailScreen.java" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EmailArchived.java" index="15">
+<position info="not_deleted" x="5399" y="0"/>
+</item>
+<item historyLabel="EmailScreen1.java" index="17">
+<position info="not_deleted" x="31" y="1"/>
+</item>
+<item historyLabel="EmailArchived.java" index="15">
+<position info="not_deleted" x="5399" y="0"/>
+</item>
+<item historyLabel="EmailScreen1.java" index="18">
+<position info="not_deleted" x="5267" y="0"/>
+</item>
+<item historyLabel="Summary.java" index="19">
+<position info="not_deleted" x="3501" y="0"/>
+</item>
+<item historyLabel="ToDo.java" index="20">
+<position info="not_deleted" x="1206" y="0"/>
+</item>
+<item historyLabel="UnarchiveScreen.java" index="21">
+<position info="not_deleted" x="4509" y="0"/>
+</item>
+<item historyLabel="ViewArchive.java" index="22">
+<position info="not_deleted" x="3584" y="0"/>
+</item>
+<item historyLabel="Summary.java" index="19">
+<position info="not_deleted" x="3501" y="0"/>
+</item>
+<item historyLabel="ViewArchive.java" index="22">
+<position info="not_deleted" x="3584" y="0"/>
+</item>
+<item historyLabel="ArchiveScreen.java" index="23">
+<position info="not_deleted" x="1039" y="0"/>
+</item>
+<item historyLabel="EmailScreen1.java" index="24">
+<position info="not_deleted" x="5265" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="25">
+<position info="not_deleted" x="6958" y="0"/>
+</item>
+<item historyLabel="ArchiveScreen.java" index="23">
+<position info="not_deleted" x="6050" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="25">
+<position info="not_deleted" x="4718" y="3"/>
+</item>
+<item historyLabel="main.xml" index="26"/>
+<item active="true" historyLabel="ViewArchive.java" index="22">
+<position info="not_deleted" x="3584" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="Lexie-notes/res/menu/main.xml">
+<persistable path="/Lexie-notes/res/menu/main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ViewArchive.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/ViewArchive.java">
+<persistable path="/Lexie-notes/src/ca/ualberta/lexie/ViewArchive.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnarchiveScreen.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/UnarchiveScreen.java">
+<persistable path="/Lexie-notes/src/ca/ualberta/lexie/UnarchiveScreen.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ToDo.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/ToDo.java">
+<persistable path="/Lexie-notes/src/ca/ualberta/lexie/ToDo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Summary.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/Summary.java">
+<persistable path="/Lexie-notes/src/ca/ualberta/lexie/Summary.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmailScreen1.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/EmailScreen1.java">
+<persistable path="/Lexie-notes/src/ca/ualberta/lexie/EmailScreen1.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EmailArchived.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/EmailArchived.java">
+<persistable path="/Lexie-notes/src/ca/ualberta/lexie/EmailArchived.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/MainActivity.java">
+<persistable path="/Lexie-notes/src/ca/ualberta/lexie/MainActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArchiveScreen.java" tooltip="Lexie-notes/src/ca/ualberta/lexie/ArchiveScreen.java">
+<persistable path="/Lexie-notes/src/ca/ualberta/lexie/ArchiveScreen.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Lexie-notes/AndroidManifest.xml">
+<persistable path="/Lexie-notes/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="view_archive.xml" tooltip="Lexie-notes/res/layout/view_archive.xml">
+<persistable path="/Lexie-notes/res/layout/view_archive.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="unarchive_screen.xml" tooltip="Lexie-notes/res/layout/unarchive_screen.xml">
+<persistable path="/Lexie-notes/res/layout/unarchive_screen.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="delete_screen.xml" tooltip="Lexie-notes/res/layout/delete_screen.xml">
+<persistable path="/Lexie-notes/res/layout/delete_screen.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="summary_view.xml" tooltip="Lexie-notes/res/layout/summary_view.xml">
+<persistable path="/Lexie-notes/res/layout/summary_view.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_main.xml" tooltip="Lexie-notes/res/layout/fragment_main.xml">
+<persistable path="/Lexie-notes/res/layout/fragment_main.xml"/>
+</file>
+</mruList>
+</workbench>

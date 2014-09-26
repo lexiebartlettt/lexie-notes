@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+<EditText
+android:id="@+id/emailFrom"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:ems="10"
+android:hint="From">
+<requestFocus />
+</EditText>
+<EditText
+android:id="@+id/emailcc"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:ems="10"
+android:hint="CC">
+<requestFocus />
+</EditText>
+<ListView
+android:id="@+id/emailListView"
+android:layout_width="match_parent"
+android:layout_height="150dp" >
+</ListView>
+<Button
+android:id="@+id/emailSelected"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_weight="0.2"
+android:text="Email Selected" />
+<Button
+android:id="@+id/emailAll"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_weight="0.2"
+android:text="Email All" />
+<Button
+android:id="@+id/emailEverything"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_weight="0.2"
+android:text="Email All ToDos and Archived ToDos" />
+</LinearLayout>

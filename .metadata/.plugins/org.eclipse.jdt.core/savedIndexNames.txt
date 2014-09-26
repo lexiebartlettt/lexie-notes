@@ -1,0 +1,10 @@
+INDEX VERSION 1.126+/cshome/lexie/lexie-notes/lexie-notes/.metadata/.plugins/org.eclipse.jdt.core
+1381031754.index
+3192832901.index
+2705066103.index
+1439733218.index
+1270860398.index
+2771075821.index
+3686152348.index
+3617882771.index
+1447531984.index
