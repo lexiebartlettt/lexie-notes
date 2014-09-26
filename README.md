@@ -13,7 +13,7 @@ To Use:
   In newer device versions it shows up by pressing the left button at the bottom at the device 
 
 Sources:
- Used lonelyTwitter app for saving and loading implementations 
+ Used lonelyTwitter app for saving and loading implementations and the ToDo class.
  Can be found https://github.com/lexiebartlettt/lonelyTwitter
  accessed September 23 2014
  
